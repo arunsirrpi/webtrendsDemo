@@ -1,0 +1,15 @@
+PODS:
+  - Flurry-iOS-SDK/FlurrySDK (7.6.6)
+  - Webtrends-SDK/Core (3.0.14)
+
+DEPENDENCIES:
+  - Flurry-iOS-SDK/FlurrySDK (= 7.6.6)
+  - Webtrends-SDK/Core (= 3.0.14)
+
+SPEC CHECKSUMS:
+  Flurry-iOS-SDK: 97bbeec09cca666c2f1772f6e161c4f8ccff611e
+  Webtrends-SDK: 0c096ef8474783d41f3a685f555463a076a61559
+
+PODFILE CHECKSUM: 36acf8f2fd0142473b1edc860cf14652082dea79
+
+COCOAPODS: 1.0.1

@@ -10,6 +10,9 @@
 		0714B0CF1D6153E20077EF75 /* WebtrendsInsideFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 0714B0CE1D6153E20077EF75 /* WebtrendsInsideFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0714B0D61D6153E20077EF75 /* WebtrendsInsideFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0714B0CB1D6153E20077EF75 /* WebtrendsInsideFramework.framework */; };
 		0714B0DB1D6153E20077EF75 /* WebtrendsInsideFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0714B0DA1D6153E20077EF75 /* WebtrendsInsideFrameworkTests.swift */; };
+		0781B8AC1D61557C00A15445 /* Webtrends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0781B8AB1D61557C00A15445 /* Webtrends.swift */; };
+		8F8A702F80AE653BEA7F3286 /* Pods_WebtrendsInsideFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F9B36C0F0E66B3F316889B7 /* Pods_WebtrendsInsideFramework.framework */; };
+		BB7FF896BD0D5EFAF729D18E /* Pods_WebtrendsInsideFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55CA818D11C7B55EFB404073 /* Pods_WebtrendsInsideFrameworkTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,13 @@
 		0714B0D51D6153E20077EF75 /* WebtrendsInsideFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebtrendsInsideFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0714B0DA1D6153E20077EF75 /* WebtrendsInsideFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebtrendsInsideFrameworkTests.swift; sourceTree = "<group>"; };
 		0714B0DC1D6153E20077EF75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0781B8AB1D61557C00A15445 /* Webtrends.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Webtrends.swift; sourceTree = "<group>"; };
+		1C58F8901C985E61E4566FD0 /* Pods-WebtrendsInsideFrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebtrendsInsideFrameworkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebtrendsInsideFrameworkTests/Pods-WebtrendsInsideFrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
+		55CA818D11C7B55EFB404073 /* Pods_WebtrendsInsideFrameworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebtrendsInsideFrameworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F9B36C0F0E66B3F316889B7 /* Pods_WebtrendsInsideFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebtrendsInsideFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A0AF1D214C826BB437BBD7F /* Pods-WebtrendsInsideFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebtrendsInsideFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebtrendsInsideFramework/Pods-WebtrendsInsideFramework.release.xcconfig"; sourceTree = "<group>"; };
+		6B38920C8DC790718952A925 /* Pods-WebtrendsInsideFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebtrendsInsideFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebtrendsInsideFramework/Pods-WebtrendsInsideFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		B279BB8A1645AE5D25EC3045 /* Pods-WebtrendsInsideFrameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebtrendsInsideFrameworkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebtrendsInsideFrameworkTests/Pods-WebtrendsInsideFrameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F8A702F80AE653BEA7F3286 /* Pods_WebtrendsInsideFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +55,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0714B0D61D6153E20077EF75 /* WebtrendsInsideFramework.framework in Frameworks */,
+				BB7FF896BD0D5EFAF729D18E /* Pods_WebtrendsInsideFrameworkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +68,8 @@
 				0714B0CD1D6153E20077EF75 /* WebtrendsInsideFramework */,
 				0714B0D91D6153E20077EF75 /* WebtrendsInsideFrameworkTests */,
 				0714B0CC1D6153E20077EF75 /* Products */,
+				EFB5BFFEA37156C8ED20FA3C /* Pods */,
+				07C9FAC10AAA650F62F6D444 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +87,7 @@
 			children = (
 				0714B0CE1D6153E20077EF75 /* WebtrendsInsideFramework.h */,
 				0714B0D01D6153E20077EF75 /* Info.plist */,
+				0781B8AB1D61557C00A15445 /* Webtrends.swift */,
 			);
 			path = WebtrendsInsideFramework;
 			sourceTree = "<group>";
@@ -84,6 +99,26 @@
 				0714B0DC1D6153E20077EF75 /* Info.plist */,
 			);
 			path = WebtrendsInsideFrameworkTests;
+			sourceTree = "<group>";
+		};
+		07C9FAC10AAA650F62F6D444 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F9B36C0F0E66B3F316889B7 /* Pods_WebtrendsInsideFramework.framework */,
+				55CA818D11C7B55EFB404073 /* Pods_WebtrendsInsideFrameworkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFB5BFFEA37156C8ED20FA3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B38920C8DC790718952A925 /* Pods-WebtrendsInsideFramework.debug.xcconfig */,
+				6A0AF1D214C826BB437BBD7F /* Pods-WebtrendsInsideFramework.release.xcconfig */,
+				B279BB8A1645AE5D25EC3045 /* Pods-WebtrendsInsideFrameworkTests.debug.xcconfig */,
+				1C58F8901C985E61E4566FD0 /* Pods-WebtrendsInsideFrameworkTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,10 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0714B0DF1D6153E20077EF75 /* Build configuration list for PBXNativeTarget "WebtrendsInsideFramework" */;
 			buildPhases = (
+				C7174B9755A5CF830BF21D61 /* [CP] Check Pods Manifest.lock */,
 				0714B0C61D6153E20077EF75 /* Sources */,
 				0714B0C71D6153E20077EF75 /* Frameworks */,
 				0714B0C81D6153E20077EF75 /* Headers */,
 				0714B0C91D6153E20077EF75 /* Resources */,
+				9FB4A9403819BC19EFC21CB2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0714B0E21D6153E20077EF75 /* Build configuration list for PBXNativeTarget "WebtrendsInsideFrameworkTests" */;
 			buildPhases = (
+				657D32C6847DC3A8D9889248 /* [CP] Check Pods Manifest.lock */,
 				0714B0D11D6153E20077EF75 /* Sources */,
 				0714B0D21D6153E20077EF75 /* Frameworks */,
 				0714B0D31D6153E20077EF75 /* Resources */,
+				B8BF3448BDE79EC52107B041 /* [CP] Embed Pods Frameworks */,
+				694752B2D76CA24F545EFDB8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -189,11 +229,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		657D32C6847DC3A8D9889248 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		694752B2D76CA24F545EFDB8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebtrendsInsideFrameworkTests/Pods-WebtrendsInsideFrameworkTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FB4A9403819BC19EFC21CB2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebtrendsInsideFramework/Pods-WebtrendsInsideFramework-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8BF3448BDE79EC52107B041 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebtrendsInsideFrameworkTests/Pods-WebtrendsInsideFrameworkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7174B9755A5CF830BF21D61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0714B0C61D6153E20077EF75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0781B8AC1D61557C00A15445 /* Webtrends.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +428,9 @@
 		};
 		0714B0E01D6153E20077EF75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B38920C8DC790718952A925 /* Pods-WebtrendsInsideFramework.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -320,12 +441,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = au.net.abc.WebtrendsInsideFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		0714B0E11D6153E20077EF75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A0AF1D214C826BB437BBD7F /* Pods-WebtrendsInsideFramework.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -341,6 +465,7 @@
 		};
 		0714B0E31D6153E20077EF75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B279BB8A1645AE5D25EC3045 /* Pods-WebtrendsInsideFrameworkTests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = WebtrendsInsideFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -351,6 +476,7 @@
 		};
 		0714B0E41D6153E20077EF75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C58F8901C985E61E4566FD0 /* Pods-WebtrendsInsideFrameworkTests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = WebtrendsInsideFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -378,6 +504,7 @@
 				0714B0E11D6153E20077EF75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0714B0E21D6153E20077EF75 /* Build configuration list for PBXNativeTarget "WebtrendsInsideFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -386,6 +513,7 @@
 				0714B0E41D6153E20077EF75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
